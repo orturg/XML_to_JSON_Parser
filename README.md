@@ -104,3 +104,6 @@ cargo run -- credits
 
 ## Technical Description 
 The parser analyzes XML input text, recognizes structural elements such as tags, attributes, and text nodes, and then transform these elements into a structured JSON representation. Firstly, XML input will be recognized by grammar rules using pest. Then the parsed input will be organized into a structure that consistes nested elements and relationships between XML elements. Finally, this structure will be converted into a JSON object.
+
+## Crate on crates.io
+https://crates.io/crates/XML_to_JSON_Parser
